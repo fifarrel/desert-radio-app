@@ -1,0 +1,100 @@
+/* Center root content */
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #f4e2d8, #ba9470);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d1e0f;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Main front page container */
+.frontPage {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Title styling */
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Subtitle paragraph */
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Button styling */
+.enter-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #6d4c41;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: poin;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(to bottom, #f7e0b2, #e0a96d);
+  color: #3e2e1b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3e2e1b;
+  font-weight: 500;
+}
+
+.page {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.cta {
+  padding: 1rem 2rem;
+  background-color: #6d4c41;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
